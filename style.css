@@ -1,0 +1,76 @@
+body
+{
+background-image:url("images.jpg"); 
+background-size: cover;
+}
+
+#mymenu
+{
+background: linear-gradient(pink,cyan);
+color: black;
+font-size:23px;;
+font-weight:bold;
+text-align:right;
+}
+
+#mymenu:hover
+{
+background: linear-gradient(pink,yellow);
+color:blue;	
+font-size:23px;
+font-weight:bold;
+text-align:right;
+}
+
+#mymenu ul li:hover
+{
+background:white;
+
+}
+
+#mymenu ul li
+{
+display:inline-block;
+padding:20px;
+text-align:right;
+}
+
+table
+{
+background: rgba(103,203,241,0.5);
+color:balck;
+font-size:23px;
+font-weight:bold;
+margin-top:100px;
+box-shadow:10px 10px 10px white;
+}
+
+table:hover
+{
+background: rgba(103,203,241,0.5);
+color:balck;
+font-size:23px;
+font-weight:bold;
+margin-top:100px;
+box-shadow:10px 10px 10px black;
+}
+
+.B
+{
+widht:85px;
+height:40px;
+background: linear-gradient(pink,red);
+color :black;
+font-weight:bold;
+border-radius:40px 40px 40px 40px;
+}
+
+.B:hover
+{
+widht:85px;
+height:40px;
+background: linear-gradient(to right,black,red);
+color :blue;
+
+border-radius:40px 0px 40px 0px;
+}
